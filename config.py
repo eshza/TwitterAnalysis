@@ -10,10 +10,10 @@ data_encoding = 'utf-8'
 
 """ TWITTER APP SETTINGS """
 
-consumer_api_key = 'Qx133zwJ9m6OVmQi8u8bcK64U'
-consumer_api_secret = 'NBf92Chtv8E9gHiUMNIZzNITGEFzDFqkQyb6w4Wtt9wyYcsegp'
-access_token = '1117174296873455616-kgYkerVrkMQI3yehdsBYcbT4iuwnMW'
-access_token_secret = 'HLlPcpxCAhCnGqd9yund0ozojYK3f5r0f1Bs01cEcGYgW'
+consumer_api_key = 'Enter your Twitter App Consumer API Key here'
+consumer_api_secret = 'Enter your Twitter App Consumer API Secret Key here'
+access_token = 'Enter your Twitter App Access Token here'
+access_token_secret = 'Enter your Twitter App Access Token Secret here'
 
 """ SENTIMENT ANALYSIS MODEL SETTINGS """
 
