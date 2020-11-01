@@ -27,14 +27,14 @@ Twitter provides an API (application programming interface) that allows develope
 twitter data and gather information about tweets such as the content of the tweet, the twitter handle
 of the user, the number of likes and retweets, etc. When someone wants to access Twitter’s APIs,
 they are required to first apply for a developer account and then register an application. By default,
-applications can only access public information on Twitter^1. Python provides a useful open source
-library calledtweepy^2 that makes it easy to communicate with the Twitter platform through its
+applications can only access public information on Twitter<sup>1</sup>. Python provides a useful open source
+library called tweepy<sup>2</sup> that makes it easy to communicate with the Twitter platform through its
 API. For this project, python will be used to interact with the Twiiter API and make requests. The
 results obtained from this request are in JSON format, which can be easily parsed to extract useful
 information.
 
-(^1) https://help.twitter.com/en/rules-and-policies/twitter-api
-(^2) https://www.tweepy.org
+<sup>1</sup> https://help.twitter.com/en/rules-and-policies/twitter-api \
+<sup>2</sup> https://www.tweepy.org
 
 
 ### 2.2 Apache Kafka
@@ -79,10 +79,12 @@ for large amounts of data. It is also able to ingest data from Apache Kafka. Spa
 highly accessible and provides support and APIs for a variety of programming languages like Python,
 
 
-Scala and R. Spark SQL^3 is Sparks’ interface for working with structured and semi structured data
+Scala and R. Spark SQL<sup>3</sup> is Sparks’ interface for working with structured and semi structured data
 and is useful for querying big data. It can be used both within a Spark program, and also through
 external tools that connect to it through standard database connectors (JDBC/ ODBC), such as
 business intelligence tools like Tableau.
+
+<sup>3</sup> https://spark.apache.org/sql/
 
 ## 3 Implementation
 
@@ -96,10 +98,10 @@ The implementation is divided into the following tasks:
 
 ### 3.1 Set up
 
-This project was built using:
-Python 3
-Kafka version 2.2.0 (Released March 22, 2019)
-Spark 2.4.1 built for Hadoop 2.7.3 (Released March 31, 2019)
+This project was built using:\
+Python 3\
+Kafka version 2.2.0 (Released March 22, 2019)\
+Spark 2.4.1 built for Hadoop 2.7.3 (Released March 31, 2019)\
 Anaconda version 2019.03, build channel: Python 3.
 
 ### 3.2 Twitter credentials
@@ -114,8 +116,6 @@ OAuth or Open Authorization is commonly used for token-based authentication and 
 on the Internet. Through OAuth an end user’s account information can be used by third-party services
 without exposing the user’s password. The pythontweepy library supports oauth authorization
 through the tweepy.AuthHandler class. It is used in this project.
-
-(^3) https://spark.apache.org/sql/
 
 
 ### 3.3 Kafka Producer
